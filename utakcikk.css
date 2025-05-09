@@ -17,20 +17,23 @@ nav{
 }
 
 article{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     gap: 5px;
     padding: 5px;
     text-align: center;
 }
-
-.cikkek{
-    box-sizing: border-box;
-    border-style: solid;
-    border-width: 5px;
-    background-color: rgb(185, 27, 27);
-}
-
 footer {
     border-top: 5px red solid;
+}
+
+.szoveg {
+    display: grid;
+    text-align: center;
+    font-size: 20px;
+}
+
+img {
+
+}
+h2 {
+    text-align: left;
 }
