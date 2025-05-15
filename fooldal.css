@@ -1,0 +1,36 @@
+header{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    text-align: center;
+    border-bottom: 5px red solid;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    border-right: 5px red solid;
+}
+
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.cikkek{
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 5px;
+    background-color: rgb(255, 215, 16);
+}
+
+footer {
+    border-top: 5px red solid;
+}
